@@ -5,3 +5,7 @@
     margin: 0;
     padding: 0;
 }
+html{
+    /* me permite deslizar cuando ago clic en los menu*/
+    scroll-behavior: smooth;
+}
