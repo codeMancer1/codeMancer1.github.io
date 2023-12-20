@@ -146,7 +146,7 @@ html {
     line-height: 22px;
     margin-bottom: 20px;
 }
-.sobremi .contenido-seccion p span{
+.sobremi .contenido-seccion p strong{
     color: #1CB698;
     font-weight: bold;
 }
