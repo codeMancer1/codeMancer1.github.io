@@ -129,16 +129,18 @@
                     </div>
                 </div>
             </div>
-
-            <button onclick="descargarCV()">
-                Descargar CV <i class="fa-solid fa-download"></i>
-                <span class="overlay"></span>
-              </button>
+            
+            <div>
+                <button onclick="descargarCV()">
+                  Descargar CV <i class="fa-solid fa-download"></i>
+                  <span class="overlay"></span>
+                </button>
+              </div>
               
               <script>
                 function descargarCV() {
                   var enlace = document.createElement('a');
-                  enlace.href = '/CV/.My_CV.pdf';  // Reemplaza con la ruta correcta de tu archivo PDF
+                  enlace.href = '/CV/My_CV.pdf';  // Reemplaza con la ruta correcta de tu archivo PDF
                   enlace.download = 'NombreDeTuCV.pdf';  // Reemplaza con el nombre deseado para el archivo descargado
                   document.body.appendChild(enlace);
                   enlace.click();
@@ -146,7 +148,6 @@
                 }
               </script>
               
-
         </div>
     </section>
 </html>
