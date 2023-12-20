@@ -180,13 +180,13 @@ html{
 }
 .sobremi .fila .col .contenedor-intereses .interes i{
     font-size: 30px;
-    margin-bottom: 10px;  
+    margin-bottom: 10px;
 }
 .sobremi button{
     cursor: pointer;
     background-color: transparent;
-    border: 20px solid #fff;
-    width:fit-content;
+    border: 2px solid #fff;
+    width: fit-content;
     display: block;
     margin: 20px auto;
     padding: 10px 22px;
@@ -199,11 +199,11 @@ html{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 0;
     height: 100%;
     background-color: #1CB698;
     z-index: -1;
-    transition: .1s;
+    transition: 1s;
 }
 .sobremi button:hover .overlay{
     width: 100%;
