@@ -208,3 +208,20 @@ html{
 .sobremi button:hover .overlay{
     width: 100%;
 }
+/* En tu archivo de estilos o en el mismo HTML con la etiqueta <style> */
+.datos-personales {
+    list-style: none; /* Quita los puntos de la lista */
+    margin-bottom: 10px; /* Agrega un margen inferior entre elementos */
+}
+
+.datos-personales strong {
+    display: block; /* Hace que el elemento <strong> sea de bloque para tener un salto de línea antes del texto */
+    font-weight: bold; /* Aplica negrita al texto */
+    margin-bottom: 5px; /* Agrega un margen inferior al texto del <strong> */
+}
+
+.datos-personales a {
+    text-decoration: none; /* Quita el subrayado del enlace */
+    color: #007BFF; /* Cambia el color del enlace */
+    font-weight: bold; /* Aplica negrita al texto del enlace */
+}
