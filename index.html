@@ -79,6 +79,14 @@
                             <a href="mailto:worldtheboysad@hotmail.com">worldtheboysad@hotmail.com</a>
                         </li>
                         
+                        <script>
+                            // Código JavaScript para quitar subrayado de enlaces
+                            var enlaces = document.querySelectorAll('a');
+                            enlaces.forEach(function(enlace) {
+                                enlace.style.textDecoration = 'none';
+                            });
+                        </script>
+                        
                         <li>
                             <strong>Dirección</strong> Nariño Olaya Herrera calle telecon
                         </li>
@@ -141,7 +149,7 @@
                 function descargarCV() {
                   var enlace = document.createElement('a');
                   enlace.href = '/CV/My_CV.pdf';  // Reemplaza con la ruta correcta de tu archivo PDF
-                  enlace.download = 'NombreDeTuCV.pdf';  // Reemplaza con el nombre deseado para el archivo descargado
+                  enlace.download = 'CV.pdf';  // Reemplaza con el nombre deseado para el archivo descargado
                   document.body.appendChild(enlace);
                   enlace.click();
                   document.body.removeChild(enlace);
