@@ -187,14 +187,18 @@ html {
     display: flex;
     flex-wrap: wrap;
 }
-.sobremi .fila .col .contenedor-intereses .intereses{
-    width:  100px;
+.sobremi .fila .col .contenedor-intereses .intereses {
+    width: 100px;
     height: 100px;
     background-color: #252a2e;
     border-radius: 10px;
     margin: 0 15px 15px 0;
-    flex-direction: column;
-    align-items: center;
+    display: flex; /* Utilizando flexbox */
+    align-items: center; /* Centrar verticalmente */
     justify-content: center;
     transition: .3s;
+}
+
+.sobremi .fila .col .contenedor-intereses .intereses:hover{
+    background-color: #1CB698;
 }
