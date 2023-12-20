@@ -146,14 +146,7 @@ html {
     line-height: 22px;
     margin-bottom: 20px;
 }
-.sobremi p {
-    color: #fff; /* Asegúrate de que el color del texto sea blanco */
-    font: 18px;
-    line-height: 22px;
-    margin-bottom: 20px;
-}
-
-.sobremi .contenido-seccion p strong {
+.sobremi .contenido-seccion p span {
     color: #1CB698;
     font-weight: bold;
 }
