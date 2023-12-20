@@ -178,3 +178,33 @@ html{
 }.sobremi .fila .col .contenedor-intereses .interes:hover{
     background-color: #1CB698;
 }
+.sobremi .fila .col .contenedor-intereses .interes i{
+    font-size: 30px;
+    margin-bottom: 10px;  
+}
+.sobremi button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 20px solid #fff;
+    width:fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+.sobremi button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1CB698;
+    z-index: -1;
+    transition: .1s;
+}
+.sobremi button:hover .overlay{
+    width: 100%;
+}
