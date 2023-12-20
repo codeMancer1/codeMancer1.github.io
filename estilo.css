@@ -170,5 +170,31 @@ html {
 }
 
 .sobremi .fila .col ul li {
-    margin: 12px;
+    margin: 12px 0;
+}
+.sobremi .fila .col ul li strong{
+    display: inline-block;
+    color: #1CB698;
+    width: 130px;
+}
+.sobremi .fila .col ul li span{
+    background-color: #1CB698;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.sobremi .fila .col .contenedor-intereses{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sobremi .fila .col .contenedor-intereses .intereses{
+    width:  100px;
+    height: 100px;
+    background-color: #252a2e;
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
 }
