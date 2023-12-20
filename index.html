@@ -136,6 +136,16 @@
                   <span class="overlay"></span>
                 </button>
               </div>
+        <script>
+              function descargarCV() {
+                var enlace = document.createElement('a');
+                enlace.href = 'ruta/a/tu/cv.pdf';  // Reemplaza con la ruta correcta de tu archivo PDF
+                enlace.download = 'NombreDeTuCV.pdf';  // Reemplaza con el nombre deseado para el archivo descargado
+                document.body.appendChild(enlace);
+                enlace.click();
+                document.body.removeChild(enlace);
+            }
+        </script>
         </div>
     </section>
     
