@@ -288,11 +288,11 @@ html{
     100%{width: 89%;}
 }
 
-.skills .skill .photoshop{
+.skills .skill .linux{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 2s linux forwards;
 }
-@keyframes photoshop {
+@keyframes linux {
     0%{width: 0%;}
     100%{width: 95%;}
 }
