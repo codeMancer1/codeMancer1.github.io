@@ -208,7 +208,6 @@ html{
 .sobremi button:hover .overlay{
     width: 100%;
 }
-
 /* SECCION S K I L L S */
 .skills{
     background-color: #252A2E;
@@ -288,6 +287,15 @@ html{
     100%{width: 89%;}
 }
 
+.skills .skill .photoshop{
+    width: 0%;
+    animation: 2s photoshop forwards;
+}
+@keyframes photoshop {
+    0%{width: 0%;}
+    100%{width: 95%;}
+}
+
 .skills .skill .wordpress{
     width: 0%;
     animation: 2s wordpress forwards;
@@ -350,8 +358,7 @@ html{
     0%{width: 0%;}
     100%{width: 94%;}
 }
-
-/* SECCION CURRICULUM */  
+/* SECCION CURRICULUM */
 .curriculum{
     background-color: #1e2326;
     color: #fff;
